@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Research - Yang (Aurelia) Li</title>
+  <link rel="icon" type="image/png" href="/files/turtle-favicon.png">
+  <link rel="apple-touch-icon" href="/files/turtle-favicon.png">
+  <link rel="stylesheet" href="/css/yang-li-site.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="/">Yang (Aurelia) Li</a>
+      <div class="nav-links">
+        <a href="/">Home</a>
+        <a href="/cv/">CV</a>
+        <a class="active" href="/research/">Research</a>
+        <a href="/teaching/">Teaching</a>
+        <span class="search-icon" aria-hidden="true"></span>
+      </div>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <div class="banner">
+      <img src="/files/qianli-jiangshan-banner.jpg" alt="Chinese landscape painting banner">
+    </div>
+
+    <div class="blue-rule"></div>
+
+    <div class="page-block">
+      <h1 class="page-title">Research</h1>
+
+      <section>
+        <h2>Working Papers</h2>
+
+        <div class="paper paper-with-image">
+          <div>
+            <h3>Algorithmic Priors: LLM-Mediated Belief Homogenization and Gender Segregation in Labor Markets</h3>
+            <div class="paper-meta">Working paper</div>
+            <p>
+              Statistical discrimination models have a built-in self-correction:
+              employers with wrong gender-occupation beliefs incur costly mismatches,
+              and competition erodes the error. This mechanism fails when employers
+              share a large language model as their information source. An LLM trained
+              on historically gendered text encodes a fixed representation of
+              gender-job fit in embedding space &mdash; a structural artifact of
+              gradient descent on biased corpora, not a correctable surface-level
+              error. Because every user draws from the same parameters, cross-employer
+              belief variance collapses as adoption spreads. Without that variance,
+              no market signal punishes biased priors. Occupational segregation
+              mirrors the training corpus rather than employer experience or taste,
+              and persists even when every decision-maker is fully Bayesian.
+            </p>
+            <p>
+              We formalize this in a two-sided model of belief formation and
+              search-match. Employers and workers update gender-occupation beliefs
+              toward the LLM attractor via DeGroot dynamics; converged beliefs enter
+              as endogenous bias parameters in a search-match framework.
+              Cross-employer belief variance collapses at rate
+              (1 - &lambda;)<sup>2t</sup>, where &lambda; is the LLM adoption rate,
+              destroying the heterogeneity that statistical self-correction requires.
+              The equilibrium gender wage gap scales as &lambda;<sup>2</sup>: a
+              doubling of adoption quadruples the gap. When employers and workers
+              also update beliefs against each other, they reach internal consensus
+              before either converges to the true productivity allocation &mdash; a
+              shared-misconception equilibrium that accelerates divergence further.
+              In industries where technology intensity raises both LLM adoption and
+              employer-worker interaction, the gap is monotone in technology
+              intensity; where LLM use substitutes for direct contact, an interior
+              maximum emerges at intermediate intensity &mdash; a counter-intuitive,
+              testable prediction.
+            </p>
+            <p>
+              Two policy instruments follow. Restricting adoption speed slows
+              convergence but leaves the biased attractor unchanged; retraining the
+              model shifts the fixed point itself. The welfare cost of misallocation
+              scales as &lambda;<sup>2</sup>&epsilon;<sup>2</sup>, making
+              training-level governance strictly more effective in the long run.
+            </p>
+          </div>
+          <figure class="paper-visual">
+            <img src="/files/research-ai-sketch.jpg" alt="Abstract sketch of embedding clusters and algorithmic bias" loading="lazy">
+          </figure>
+        </div>
+
+        <div class="paper paper-with-image">
+          <div>
+            <h3>Old-Age Pensions and Three-Generation Household Reorganization: Evidence from Rural China</h3>
+            <div class="paper-meta">with <a href="https://xinhaodong.github.io/">Xinhao Dong</a> | Working paper | CEA 2026</div>
+            <p>
+              We estimate how pension income reshapes household decisions across
+              three generations, using China's 2016 urban-rural pension unification
+              as a source of exogenous benefit variation. An age-60 regression
+              discontinuity design interacted with pre/post variation from the reform
+              identifies the effect of a 27 percent increase in the monthly benefit
+              floor for rural residents. Among grandparents, pension eligibility
+              raises grandchild care provision by 8.2 percentage points while formal
+              outpatient spending falls. Among grandchildren, a grandparent crossing
+              the eligibility cutoff is associated with 1.4 fewer months per year
+              with the father and 1.6 fewer months with the mother; extreme paternal
+              absence declines as moderate absence rises. Among migrants, higher
+              provincial pension generosity reduces reported childcare burden and
+              raises the rate of first migration undertaken with children in tow.
+              The transfer channel is family-specific: outward transfers from
+              pension recipients fall by 0.48 log points among those with adult
+              children but are statistically indistinguishable from zero among those
+              without. The pension dissolves the intergenerational bargain that had
+              kept adult children nearby, and the adjustment propagates through
+              grandchild care arrangements rather than elder care.
+            </p>
+            <div class="paper-links">
+              <a class="paper-link" href="/files/CEA_pension_migration_urbanization_slides.pdf">CEA slides</a>
+            </div>
+          </div>
+          <figure class="paper-visual">
+            <img src="/files/research-pension-sketch.jpg" alt="Sketch of grandmother caring for a child in a rural courtyard" loading="lazy">
+          </figure>
+        </div>
+
+        <div class="paper paper-with-image">
+          <div>
+            <h3>Global Value Chains, Specialized Inputs, and Sino-U.S. Trade Friction: Evidence from China's Customs Data</h3>
+            <div class="paper-meta">Draft and slides available upon request</div>
+            <p>
+              Standard trade-in-value-added (TiVA) methods assume each firm allocates
+              imported intermediates in proportion to its overall input mix,
+              regardless of destination or product. This paper relaxes that
+              assumption by combining WIOD input-output tables with China's
+              HS8-level customs records, which allow destination- and product-specific
+              intermediates to be tracked directly. The resulting foreign value-added
+              measures are substantially larger than conventional TiVA estimates for
+              U.S. content embodied in Chinese exports, particularly in electronics
+              and other high-technology sectors. The finding suggests that the trade
+              balance attributable to U.S. inputs is routinely understated in standard
+              accounting, with implications for how trade friction episodes are
+              measured and interpreted.
+            </p>
+          </div>
+          <figure class="paper-visual">
+            <img src="/files/research-trade-sketch.jpg" alt="Sketch of container port cranes and cargo ships" loading="lazy">
+          </figure>
+        </div>
+      </section>
+
+      <section>
+        <h2>Research Interests</h2>
+        <div class="research-grid">
+          <div class="card">
+            <h3>Labor economics</h3>
+            <p>Labor markets, migration, household decisions, and inequality.</p>
+          </div>
+          <div class="card">
+            <h3>Family economics</h3>
+            <p>Intergenerational transfers, caregiving, and household reallocation.</p>
+          </div>
+          <div class="card">
+            <h3>Gender economics</h3>
+            <p>Gendered beliefs, technology, and labor-market allocation.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-contact">Yang (Aurelia) Li | <a href="mailto:yla926@sfu.ca">yla926@sfu.ca</a></div>
+    <div class="footer-parade" aria-hidden="true">
+      <span class="critter turtle critter-one"></span>
+      <span class="critter dog critter-two"></span>
+      <span class="critter turtle critter-three"></span>
+      <span class="critter dog critter-four"></span>
+    </div>
+  </footer>
+</body>
+</html>
