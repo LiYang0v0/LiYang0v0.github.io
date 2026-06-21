@@ -205,6 +205,22 @@ section h2 {
   color: var(--blue);
 }
 
+.quiet-note {
+  max-width: 720px;
+  margin-top: 18px;
+  color: #4d555a;
+  font-size: 14px;
+  line-height: 1.72;
+}
+
+.quiet-note p {
+  margin: 0;
+}
+
+.quiet-note p + p {
+  margin-top: 12px;
+}
+
 .buttons {
   display: flex;
   flex-wrap: wrap;
