@@ -47,27 +47,30 @@ a {
 }
 
 .brand {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  display: block;
   font-family: "Arial Narrow", "Avenir Next Condensed", "Helvetica Neue", Arial, sans-serif;
   font-weight: 700;
   font-size: 22px;
   letter-spacing: -0.02em;
+  line-height: 1.05;
 }
 
 .brand-name {
+  display: block;
   white-space: nowrap;
 }
 
 .brand-greeting {
-  margin-top: 2px;
+  display: block;
+  max-width: 230px;
+  margin-top: 3px;
   color: var(--muted);
   font-family: "Avenir Next", "Gill Sans", "Segoe UI", Arial, sans-serif;
-  font-size: 12px;
+  font-size: 8px;
   font-weight: 500;
   letter-spacing: 0;
-  line-height: 1.25;
+  line-height: 1.2;
+  white-space: normal;
 }
 
 .nav-links {
@@ -223,10 +226,10 @@ section h2 {
 
 .quiet-note {
   max-width: 720px;
-  margin-top: 18px;
+  margin-top: 14px;
   color: #4d555a;
-  font-size: 12.5px;
-  line-height: 1.68;
+  font-size: 8px;
+  line-height: 1.6;
 }
 
 .quiet-note p {
@@ -234,7 +237,7 @@ section h2 {
 }
 
 .quiet-note p + p {
-  margin-top: 12px;
+  margin-top: 8px;
 }
 
 .buttons {
